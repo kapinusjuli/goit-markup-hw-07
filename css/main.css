@@ -69,8 +69,8 @@ header a {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
-  -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: 2500ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 2500ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .site-nav .link:hover {
@@ -90,6 +90,10 @@ header a {
 .link-current {
   position: relative;
   color: #2196F3;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .link-current::after {
@@ -124,9 +128,14 @@ header a {
   line-height: 1.14;
 }
 
+.auth-nav :focus {
+  fill: #2196f3;
+  color: #2196f3;
+}
+
 .auth-nav-item a {
-  -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: 2500ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 2500ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .auth-nav-item a:hover {
@@ -134,20 +143,15 @@ header a {
   color: #2196f3;
 }
 
-.auth-nav :focus {
-  fill: #2196f3;
-  color: #2196f3;
-}
-
-.auth-nav-item:not(:last-child) {
-  padding-right: 50px;
-}
-
 .auth-nav-item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   vertical-align: center;
+}
+
+.auth-nav-item:not(:last-child) {
+  padding-right: 50px;
 }
 
 .email {
@@ -194,12 +198,20 @@ header a {
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border: 0;
+  cursor: pointer;
   color: #FFFFFF;
   background-color: #2196f3;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
+  -webkit-transition: 2500ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 2500ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.button:hover {
+  background-color: #FFFFFF;
+  color: #2196f3;
 }
 
 .examples-button {
@@ -210,8 +222,8 @@ header a {
   line-height: 1.62em;
   text-align: center;
   border-width: 0px;
-  -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: 2500ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 2500ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .examples-button:hover {
@@ -430,8 +442,8 @@ header a {
   padding-bottom: 24px;
   margin: 0;
   color: #AFB1B8;
-  -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: 2500ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 2500ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .personal-links:hover {
@@ -469,8 +481,8 @@ header a {
   width: 44px;
   height: 44px;
   padding: 12px;
-  -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: 2500ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 2500ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link-icon:hover {
@@ -512,8 +524,8 @@ header a {
   width: 20px;
   height: 20px;
   fill: #AFB1B8;
-  -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: 2500ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 2500ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link-icon:hover svg {
@@ -552,8 +564,8 @@ header a {
   fill: #AFB1B8;
   border: 1px solid #AFB1B8;
   border-radius: 4px;
-  -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: 2500ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 2500ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .client-icon {
@@ -648,10 +660,10 @@ img {
   letter-spacing: 0.03em;
   -webkit-transform: translateY(100%);
           transform: translateY(100%);
-  -webkit-transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: -webkit-transform 2500ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: -webkit-transform 2500ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 2500ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 2500ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 2500ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .item.portfolio:hover .portfolio-discription {
@@ -776,8 +788,8 @@ img {
   margin-bottom: 24px;
   margin-right: 10px;
   --color3: $primary-text-color;
-  -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: 2500ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 2500ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link-icon-footer:hover {
@@ -1039,8 +1051,8 @@ label {
   line-height: 1.14;
   letter-spacing: 0.01em;
   color: #757575;
-  -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: 2500ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 2500ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-input {
@@ -1062,8 +1074,8 @@ label {
   line-height: 1.14;
   letter-spacing: 0.01em;
   color: #757575;
-  -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: 2500ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 2500ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form-field input {
