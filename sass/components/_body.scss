@@ -48,11 +48,11 @@ p {
         line-height: 42px;
         text-align: center;
         
- }
- 
- body h3 {
-     color: $title-text-color-h;
-     font-family: Roboto, sans-serif;
-     letter-spacing: 0.03em;
- }
+        
+        & h3 {
+            color: $title-text-color-h;
+            font-family: Roboto, sans-serif;
+            letter-spacing: 0.03em;
+        }
+    }
          

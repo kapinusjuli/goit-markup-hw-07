@@ -69,8 +69,8 @@ header a {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
-  -webkit-transition: 2500ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: 2500ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .site-nav .link:hover {
@@ -134,8 +134,8 @@ header a {
 }
 
 .auth-nav-item a {
-  -webkit-transition: 2500ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: 2500ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .auth-nav-item a:hover {
@@ -205,8 +205,8 @@ header a {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
-  -webkit-transition: 2500ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: 2500ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button:hover {
@@ -222,8 +222,8 @@ header a {
   line-height: 1.62em;
   text-align: center;
   border-width: 0px;
-  -webkit-transition: 2500ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: 2500ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .examples-button:hover {
@@ -239,6 +239,23 @@ header a {
 /*features*/
 .features {
   margin: 0 auto;
+}
+
+.features > h2 {
+  margin: 0px;
+  padding: 0px;
+  height: 0;
+  font-size: 0;
+}
+
+.features h3 {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  padding: 0;
+}
+
+.features p {
+  width: 270;
 }
 
 .feature-item::before {
@@ -272,13 +289,6 @@ header a {
   background-image: url("../images/astronaut.svg");
 }
 
-.features > h2 {
-  margin: 0px;
-  padding: 0px;
-  height: 0;
-  font-size: 0;
-}
-
 .container-features {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -305,16 +315,6 @@ header a {
   margin-right: 30px;
 }
 
-.features h3 {
-  margin-top: 30px;
-  margin-bottom: 10px;
-  padding: 0;
-}
-
-.features p {
-  width: 270;
-}
-
 /* products */
 .container-products {
   display: -webkit-box;
@@ -332,6 +332,11 @@ header a {
   padding: 32px 15px 0px 15px;
 }
 
+.products {
+  font-size: 14px;
+  line-height: 1.71em;
+}
+
 .products h3 {
   display: block;
   width: 370px;
@@ -347,11 +352,6 @@ header a {
   font-size: 14px;
   line-height: 1.14em;
   text-transform: uppercase;
-}
-
-.products {
-  font-size: 14px;
-  line-height: 1.71em;
 }
 
 .product-item {
@@ -399,15 +399,6 @@ header a {
   text-align: center;
 }
 
-.team-descrption {
-  padding-top: 30px;
-  background-color: #FFFFFF;
-}
-
-.photo {
-  display: block;
-}
-
 .team:nth-last-child {
   margin-right: 0;
 }
@@ -429,6 +420,15 @@ header a {
   padding-bottom: 10px;
 }
 
+.team-descrption {
+  padding-top: 30px;
+  background-color: #FFFFFF;
+}
+
+.photo {
+  display: block;
+}
+
 .personal-links {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -442,8 +442,8 @@ header a {
   padding-bottom: 24px;
   margin: 0;
   color: #AFB1B8;
-  -webkit-transition: 2500ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: 2500ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .personal-links:hover {
@@ -481,8 +481,8 @@ header a {
   width: 44px;
   height: 44px;
   padding: 12px;
-  -webkit-transition: 2500ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: 2500ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link-icon:hover {
@@ -524,8 +524,8 @@ header a {
   width: 20px;
   height: 20px;
   fill: #AFB1B8;
-  -webkit-transition: 2500ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: 2500ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link-icon:hover svg {
@@ -564,8 +564,8 @@ header a {
   fill: #AFB1B8;
   border: 1px solid #AFB1B8;
   border-radius: 4px;
-  -webkit-transition: 2500ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: 2500ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .client-icon {
@@ -593,6 +593,53 @@ header a {
 
 .container-clients > h2 {
   margin: 0;
+}
+
+p {
+  background-color: #FFFFFF;
+  color: #757575;
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+}
+
+.container {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+ul {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+}
+
+section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+body h2 {
+  color: #212121;
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+}
+
+body h2 h3 {
+  color: #212121;
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
 }
 
 /*portfolio*/
@@ -660,10 +707,10 @@ img {
   letter-spacing: 0.03em;
   -webkit-transform: translateY(100%);
           transform: translateY(100%);
-  -webkit-transition: -webkit-transform 2500ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: -webkit-transform 2500ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: transform 2500ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: transform 2500ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 2500ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .item.portfolio:hover .portfolio-discription {
@@ -762,6 +809,10 @@ img {
 .footer p {
   background-color: #2F303A;
   color: #FFFFFF;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.14em;
+  text-transform: uppercase;
 }
 
 .footer address {
@@ -776,20 +827,13 @@ img {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.footer p {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.14em;
-  text-transform: uppercase;
-}
-
 /*кнопки соцсетей в футере*/
 .link-icon-footer {
   margin-bottom: 24px;
   margin-right: 10px;
   --color3: $primary-text-color;
-  -webkit-transition: 2500ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: 2500ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link-icon-footer:hover {
@@ -1051,8 +1095,8 @@ label {
   line-height: 1.14;
   letter-spacing: 0.01em;
   color: #757575;
-  -webkit-transition: 2500ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: 2500ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-input {
@@ -1074,8 +1118,8 @@ label {
   line-height: 1.14;
   letter-spacing: 0.01em;
   color: #757575;
-  -webkit-transition: 2500ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: 2500ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form-field input {
@@ -1116,52 +1160,5 @@ label {
   text-align: center;
   letter-spacing: 0.06em;
   color: #FFFFFF;
-}
-
-p {
-  background-color: #FFFFFF;
-  color: #757575;
-  font-family: Roboto, sans-serif;
-  letter-spacing: 0.03em;
-}
-
-.container {
-  width: 1200px;
-  padding: 0 15px;
-  margin: 0 auto;
-}
-
-ul {
-  margin: 0;
-  padding-left: 0;
-  list-style: none;
-  font-family: Roboto, sans-serif;
-  letter-spacing: 0.03em;
-}
-
-a {
-  display: block;
-  text-decoration: none;
-}
-
-section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
-body h2 {
-  color: #212121;
-  font-family: Roboto, sans-serif;
-  letter-spacing: 0.03em;
-  font-weight: 900;
-  font-size: 36px;
-  line-height: 42px;
-  text-align: center;
-}
-
-body h3 {
-  color: #212121;
-  font-family: Roboto, sans-serif;
-  letter-spacing: 0.03em;
 }
 /*# sourceMappingURL=main.css.map */
